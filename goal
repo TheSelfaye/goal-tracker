@@ -5,3 +5,9 @@ git add .
 git commit -m "Initial commit"
 gh repo create ironlog --private --source=. --push
 ```
+
+```bash
+git remote add origin https://github.com/<TheSelfaye>/ironlog.git
+git branch -M main
+git push -u origin main
+```
