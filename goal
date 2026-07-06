@@ -1,0 +1,7 @@
+```bash
+cd ironlog            # or whatever you name the folder
+git init
+git add .
+git commit -m "Initial commit"
+gh repo create ironlog --private --source=. --push
+```
